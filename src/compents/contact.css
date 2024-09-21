@@ -1,0 +1,130 @@
+/* #ct{
+    text-align: center;
+    font-size: 30px;
+    
+} */
+
+#card{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+   
+    flex-wrap: wrap; /* Allow wrapping */
+
+   
+}
+.CD{
+    /* border: 2px solid pink; */
+box-sizing: content-box;
+width: 100%;
+border:  #fff9f9 5px solid;
+padding: 1px;
+box-shadow: 12px 11px 10px rgb(240, 231, 250);
+}
+
+#card h3{
+    color:#fd5be2
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+   
+    }
+    form {
+    max-width: 600px;
+    width: 100%;
+    background:#fff;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px ☐ rgba(0, 0, 0, 1);
+    color: #333;
+    margin: 25px;
+    }
+    form h2 {
+    font-size: 30px;
+    text-align: center;
+    }
+
+    form.input-box {
+        margin-top: 20px;
+        }
+        .input-box .field {
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        border: 2px solid #ddd;
+        outline: none;
+        border-radius: 6px;
+        padding: 15px;
+        font-size: 16px;
+        color: #333;
+        margin: 8px;
+        }
+
+        .input-box.field.mess {
+            height: 200px;
+            resize: none;
+            }
+            form button {
+            width: 100%;
+            height: 55px;
+            background:#f66afb;
+            border: none;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 25px;
+            }
+
+
+        
+
+            
+
+
+
+            /* contact.css */
+
+/* Styles for mobile devices */
+@media screen and (max-width: 480px) {
+    #card {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .CD {
+        margin: 10px 0; /* Add spacing between cards */
+        text-align: center; /* Center text */
+    }
+
+    h3 {
+        font-size: 20px; /* Reduce heading size */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduce contact us heading size */
+    }
+
+    .input-box label {
+        font-size: 10px; /* Reduce label size */
+    }
+
+    .field {
+        font-size: 16px; /* Adjust input field size */
+        padding: 10px; /* Increase padding for easier touch */
+    }
+
+    button {
+        font-size: 16px; /* Adjust button text size */
+        padding: 10px 20px; /* Increase button padding */
+    }
+}

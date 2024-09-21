@@ -1,0 +1,60 @@
+.blog h5{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+   text-shadow: 5px 2px 50px rgb(241, 9, 241);
+
+}
+.blog p{
+    text-align: center;
+   
+
+}
+
+ .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .Btn {
+    /* position: absolute; */
+    top: 70%;
+    left: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fd5be2;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 3px solid #fd5be2;
+    box-shadow: 1px opx 2px 1px #fd5be2;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .Btn:hover {
+    background-color : transparent;
+    color: #fd5be2;
+    
+    
+  }
+
+  /* @media for btn */
+  @media screen and (max-width: 480px) {
+    .Btn{
+      font-size: 8px;
+      margin-top: 10px;
+    }
+    
+    .blog p{
+      font-size: 11px;  
+  }
+  .card img{
+    width: 100%;
+  }
+  
+  }

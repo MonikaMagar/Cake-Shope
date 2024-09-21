@@ -1,0 +1,273 @@
+/* #img{
+    width: 100%;
+    height: 800px;
+} */
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-shadow:1px 0px 1px rgb(227, 149, 255);
+  }
+  
+  .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fd5be2;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 3px solid #fd5be2;
+    box-shadow: 1px opx 2px 1px #fd5be2;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .btn:hover {
+    background-color : transparent;
+    color: #fd5be2;
+    
+    
+  }
+  /* 1st image */
+
+
+  @media screen and (max-width: 480px) {
+    .text {
+      font-size: 0.5rem;
+      
+    }
+    .btn{
+      font-size: 8px;
+    }
+  }
+  
+
+  #card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    
+  
+
+  }
+  #card2{
+    border: 1px solid rgb(255, 255, 255);
+    width: 20%;
+    box-shadow:4px 2px 2px 2px #ffd1f7;
+    border-radius: 20px;
+    margin-bottom: 5%;
+   
+  
+  }
+  @media only screen and (max-width: 480px) {
+    #card1{
+      width: 100%;
+      font-size: 5px;
+      height: 100%;
+      
+     
+    
+    }
+    #card2 img{
+      width: 40%;
+
+  
+    }
+    #card2{
+      border-radius: 5px;
+    }
+  }
+  
+
+  /* Expolar */
+  #bg{
+    /* height: auto; */
+    background-color: #ffd1f7d2;
+    border-radius: 100px 0px ;
+}
+#bg h2{
+
+    text-align: center;
+    font-family:'cursive';
+    font-size: 25px;
+   
+}
+#bg p{
+  text-align: center;
+  
+
+}
+ 
+#card3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 0%;
+  align-items: center;
+  text-align: center;
+  
+
+
+}
+#card4{
+  border: 1px solid rgb(255, 255, 255);
+  width: 20%;
+  box-shadow:4px 2px 2px 2px #ffd1f7;
+  background-color: white;
+  border-radius: 2px 35px;
+  margin-bottom: 5%;
+ 
+
+}
+#card4 img{
+ 
+  transition: transform .2s; /* Animation */
+}
+
+#card4 img:hover {
+  transform: scale(1.5); /* 150% zoom */
+  }
+
+
+  .Btn {
+    /* position: absolute; */
+    top: 70%;
+    left: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fd5be2;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 3px solid #fd5be2;
+    box-shadow: 1px opx 2px 1px #fd5be2;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .Btn:hover {
+    background-color : transparent;
+    color: #fd5be2;
+    
+    
+  }
+
+
+
+  @media only screen and (max-width: 480px) {
+    #bg{
+      width: 100%;
+      height: auto;
+     
+    }
+    #bg h2{
+
+      text-align: center;
+      font-family:'cursive';
+      font-size: 15px;
+     
+  }
+  #bg p{
+    text-align: center;
+    font-size: 10%;
+  }
+  #card3{
+    font-size: 7px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    
+    
+  
+  
+  }
+  #card4{
+    /* border: 0.5px solid rgb(255, 255, 255); */
+    width: 50%;
+ 
+    /* border-radius: 2px 18px; */
+    margin-bottom: 5%;
+  
+  
+  }
+  #card4 img{
+    width: 25%;
+  }
+  #card4 h2{
+    font-size: 9px;
+  }
+  #card4 .Btn{
+    
+    top: 20%;
+    left: 5%;
+    font-size: 6px;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 8px 16px;
+    border: 2px solid #fd5be2;
+    /* cursor: none; */
+    border-radius: 4px;
+    
+  }
+
+
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .blog{
+      width: 100%;
+      
+    }
+   
+    .man img{
+      width: 50%;
+      height: 50%;
+    
+    }
+    .blog .man h2 {
+      font-size: 20px;
+      margin-top: 20%;
+     
+    }
+    
+    
+  }
+  .man{
+    display: flex;
+    flex-direction: row;
+  }
+
+.man h2{
+  margin-top: 9%;
+  text-align: center;
+  font-size: 70px;
+  margin-left:15% ;
+  color: rgb(168, 139, 139);
+  transform: translate(-50%, -50%);
+}
+
+.man h2:hover{
+  background-color : transparent;
+    color: #fd5be2;
+
+}
